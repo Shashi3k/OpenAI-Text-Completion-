@@ -1,4 +1,4 @@
-const openAI_secret_key="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"
+const openAI_secret_key=""
 
 async function fetchData(){
     const response = await fetch("https://api.openai.com/v1/completions",{
